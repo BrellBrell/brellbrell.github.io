@@ -1,0 +1,147 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+body {
+background-image: url("../img/background.jpg");
+background-attachment: fixed;
+}
+
+.imgBig{
+    width: 920px;
+    height: 515px;
+    padding-left: 30px;
+}
+
+h1 {
+font-family: 'Roboto', sans-serif;
+text-decoration: overline;
+padding-top: 30px;
+padding-left: 30px;
+}
+
+h3 {
+font-family: 'Roboto', sans-serif;
+padding-left: 30px;
+}
+
+a {
+color: black;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+text-indent: 35px;
+font-size: 20px;
+font-weight: 300;
+padding-left: 30px;
+padding-right: 30px;
+text-align: justify;
+}
+
+.shapka {
+width: 75%;
+height: 300px;
+max-width: 1200px;
+min-width: 980px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+border-radius: 30px;
+background-image: url("../img/shapka.png");
+transition: all 200ms 0ms linear;
+}
+
+.shapka:hover {
+background-image: url("../img/shapkaHover.png");
+}
+
+.menu {
+height: 50px;
+width: 75%;
+min-width: 980px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+background-color: #cccccc;
+text-align: center;
+padding-top: 10px;
+border-radius: 10px;
+}
+
+.blockSelect {
+width: 150px;
+height: 40px;
+background-color: none;
+border-radius: 10px;
+display: inline-block;
+transition: all 200ms 0ms linear;
+}
+
+.blockSelect:hover {
+background-color: #ffffff;
+border-radius: 10px;
+display: inline-block;
+}
+
+.blockSelectActive {
+width: 150px;
+height: 40px;
+background-color: #ffffff;
+border-radius: 10px;
+display: inline-block;
+}
+
+.styleNameSelect {
+text-align: center;
+margin-top: 10px;
+padding-left: 0px;
+}
+
+.content {
+width: 75%;
+min-width: 980px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+background-color: #ffffff;
+border-radius: 10px;
+padding-bottom: 50px;
+}
+
+.contact {
+font-size: 15px;
+width: 75%;
+min-width: 980px;
+height: 25px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 5px;
+background-color: #ffffff;
+text-align: center;
+border-radius: 10px;
+font-family: 'Roboto', sans-serif;
+}
+
+.btn-grey-qa {
+    width: 170px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase; 
+    padding: 10px 15px;
+    margin: 0px 50px;
+    font-size: 100% + 40%;
+    font-weight: 600;
+    transition: 0.5s;
+    border: 5px solid #858585;
+    color: #858585;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-grey-qa:hover {
+    background-color: #525252;
+    border: 5px solid #b4b2b2;
+    color: #ffffff;
+    cursor: pointer;
+}
